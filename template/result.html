@@ -1,0 +1,44 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> RESULT </title>
+  <script type = "text/javascript">
+
+
+  </script>
+  <style>
+       table, th, td {
+            border: 0.5px solid black;
+            border-collapse: collapse;
+            }
+       th, td {
+            padding: 20px;
+            }
+       th {
+           text-align: left;
+           }
+      body{
+       background-image:url({% static 'images/12.jpg' %});
+       background-size: cover;
+      width: 100%;
+      background-repeat: repeat;
+      height: auto;
+      }
+    </style>
+</head>
+<body>
+  <div class="container" style="margin: auto; width: 90%; padding-top: 20px; padding-left: 300px">
+      <span style="display:inline-block; width:200;"></span><h2> RESULTS </h2>
+      <br>
+      <h2>Crop predicted SVM: {{ cropsvm }}</h2>
+  <h2 >Fertilizer SVM: {{ fertilizer_svm }}</h2>
+  <br>
+  <h2 >Crop predicted LR: {{ croplr }}</h2>
+  <h2 >Fertilizer LR: {{ fertilizer_lr }}</h2>
+
+
+  </div>
+</body>
+</html>
