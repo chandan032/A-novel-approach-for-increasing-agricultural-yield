@@ -4,6 +4,10 @@
 ## Official implementation of A novel approach for increasing agricultural yield
 [Click here to go to research paper](https://indjst.org/articles/an-artificial-intelligence-based-approach-for-increasing-agricultural-yield)
 
+## Link to project
+[click here to see the project](https://crop-plant.herokuapp.com/)
+
+
 ## About
 India being an agriculture-dependent community relies primarily on agriculture for its economy. Enhancing the agriculture sector thus becomes the most critical challenge for our country's economy. This paper offers a better approach to increasing agricultural production by integrating the latest developments in technology into agriculture. The two biggest issues the farmers face is 1. Knowing which crop to be sown under different conditions 2. To grasp the plant diseases and to predict them. This paper addresses these two issues by predicting a suitable crop based on certain parameters, and secondly, by detecting the diseases in the plant from a leaf picture.
 
