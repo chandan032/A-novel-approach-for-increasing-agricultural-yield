@@ -13,8 +13,8 @@ Crop prediction works by taking certain parameters such as temperature, humidity
 Detection of plant disease takes a picture of the plant leaf as an input, and if any, identifies diseases present in the plant. This research uses an open dataset of 54,306 photos of healthy and diseased crops and predicts diseases in 38 different categories from 14 specific crops. The system uses Convolution Neural Network (CNN)with ResNet152 architecture to predict plant disease and the accuracy achieved was 96%.
 
 ## Local Instalation steps
-pip install -r requirements.txt
-Navigate to prject folder
-python manage.py runserver
+pip install -r requirements.txt <br>
+Navigate to prject folder <br>
+python manage.py runserver <br>
 
 ## Please visit the research link for more details
